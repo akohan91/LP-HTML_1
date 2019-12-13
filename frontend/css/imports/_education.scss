@@ -1,0 +1,52 @@
+.education{
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 80px 0;
+        border-bottom: 1px solid $grey;
+        &:first-child{
+            padding-top: 0;
+        }
+        &:last-child{
+            border:none;
+            padding-bottom: 0;
+        }
+    }
+
+    .section__info{
+        width: 50%;
+    }
+}
+
+.diploms{
+    width: 50%;
+    padding: 0 10px;
+}
+
+.diplom{
+    margin-bottom: 65px;
+    &:last-child{
+        margin-bottom: 0;
+    }
+    &__place{
+        margin: 12px 0;
+    }
+    &__gpa{
+        display: inline-block;
+        font-size: 14px;
+        font-weight: bold;
+        color:#fff;
+        background: $green;
+        padding: 2px 7px 0;
+    }
+    &__descr{
+        &::before{
+            content: "";
+            display: block;
+            width: 100%;
+            height: 1px;
+            margin: 25px 0;
+            background: $grey;
+        }
+    }
+}

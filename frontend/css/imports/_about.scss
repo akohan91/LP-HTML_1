@@ -1,0 +1,39 @@
+.about{
+    background: #f2f2f1;
+    position: relative;
+
+    min-height: 750px;
+    .myphoto{
+        display:block;
+        height: 100%;
+        width: 36.3%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top center;
+    }
+    .section__info{
+        width: 58.33%;
+        margin-left: 41.66%;
+    }
+}
+
+
+
+.activity{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    margin-left: 41.6%;
+
+    &__item{
+        display: flex;
+        width: 50%;
+        padding: 10px ;
+    }
+    &__icon{
+        margin-right: 20px;
+    }
+}
